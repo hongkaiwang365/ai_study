@@ -41,7 +41,7 @@ def gpt(content):
     }
 
     # 确保日志目录存在
-    log_dir = os.path.join("project", "chat_log")
+    log_dir = os.path.join("chat_log")
     os.makedirs(log_dir, exist_ok=True)
 
     # 根据当前日期生成日志文件名
