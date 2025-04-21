@@ -1,4 +1,4 @@
-import helper
+import common.helper as helper
 
 if __name__ == "__main__":
     prompt = "用一句话解释提示工程的概念。"
